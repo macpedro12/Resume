@@ -25,13 +25,13 @@ export default function Home() {
         </div>
         <div className={styles.link2}>
           <img src="/redPoint.svg" />
-          <Link href="/">
+          <Link href="/jobs">
             <a>Experiência</a>
           </Link>
         </div>
         <div className={styles.link2}>
           <img src="/greenPoint.svg" className={styles.greenPoint} />
-          <Link href="/">
+          <Link href="/contact">
             <a>Contato</a>
           </Link>
         </div>
