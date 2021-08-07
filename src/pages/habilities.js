@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styles from "../styles/habilities.module.scss";
+import NavBar from "../components/NavBar/navbar";
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -36,6 +37,7 @@ export default function Habilities() {
   const [index, setIndex] = useState(1);
   const settings = {
     centerPadding: "-15px",
+    arrows: false,
     dots: true,
     infinite: false,
     centerMode: true,
@@ -45,8 +47,13 @@ export default function Habilities() {
     beforeChange: (current, prox) => setIndex(prox+1),
   };
 
+  const id = 1;
+
   return (
     <div className={styles.all}>
+      <div className={styles.navbar}>
+        <NavBar id={id} />
+      </div>
       <div className={styles.select}>
         {habilidades.map((habilidades, idx) => (
           <div
