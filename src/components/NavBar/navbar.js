@@ -22,7 +22,7 @@ export default function NavBar({ id }) {
               ) : null}
               {id != 2 ? (
                 <li>
-                  <a href="/experience">
+                  <a href="/jobs">
                     <p>Experiência</p>
                   </a>
                 </li>
