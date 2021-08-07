@@ -1,0 +1,239 @@
+@media (min-width: 1200px){
+  .all{
+    height: 100vh;
+    margin-top: -2.7rem;
+    .info{
+      height: 50vh;
+      background-color: var(--vermelho);
+      border-radius: 0 0 500px 0;
+      color: var(--branco);
+      h1{
+        padding-top: 3rem;
+        padding-left: 2rem;
+        font-size: 64px;
+        font-weight: 400;
+      }
+      p{
+        margin-top: -2rem;
+        padding-left: 2rem;
+        font-size: 36px;
+        font-weight: 300;
+      }
+      .job{
+        padding-top: 8rem;
+        font-weight: 400;
+      }
+    }
+    .activities{
+      margin-top: 4rem;
+      display: grid;
+      grid-template-columns: 45vw 45vw;
+      grid-template-areas: 
+      "roles development";
+      border-radius: 40px 40px 0 0;
+      .roles{
+        border-right: 1px solid black;
+        padding-left: 2rem;
+        
+        h1{
+          font-size: 36px;
+          font-weight: 400;
+        }
+        p{  
+          font-weight: 300;
+        }
+      }
+      .development{
+        padding-left: 3rem;
+        text-align: justify;
+        h1{
+          font-size: 36px;
+          font-weight: 400;
+        }
+        p{  
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 700px) and (max-width:1200px){
+  .all{
+    height: 100vh;
+    margin-top: -2.7rem;
+    .info{
+      height: 45vh;
+      background-color: var(--vermelho);
+      
+      color: var(--branco);
+      h1{
+        padding-top: 3rem;
+        padding-left: 2rem;
+        font-size: 64px;
+        font-weight: 400;
+      }
+      p{
+        margin-top: -2rem;
+        padding-left: 2rem;
+        font-size: 36px;
+        font-weight: 300;
+      }
+      .job{
+        padding-top: 5rem;
+        font-weight: 400;
+      }
+    }
+    .activities{
+      margin-top: 4rem;
+      display: grid;
+      grid-template-columns: 45vw 45vw;
+      grid-template-areas: 
+      "roles development";
+      
+      .roles{
+        border-right: 1px solid black;
+        padding-left: 2rem;
+        padding-right: 3rem;
+        text-align: justify;
+        h1{
+          font-size: 36px;
+          font-weight: 400;
+        }
+        p{  
+          font-weight: 300;
+          font-size: 28px ;
+        }
+      }
+      .development{
+        padding-left: 3rem;
+        text-align: justify;
+        h1{
+          font-size: 36px;
+          font-weight: 400;
+        }
+        p{  
+          font-weight: 300;
+          font-size: 28px ;
+        }
+      }
+    }
+  }
+}
+@media (min-width:200px) and (max-width:360px){
+  .all{
+    background-color: var(--vermelho);
+    margin-top: -2.7rem;
+    .info{
+      height: 55vh;
+      color: var(--branco);
+      h1{
+        padding-top: 3rem;
+        padding-left: 2rem;
+        font-size: 56px;
+        font-weight: 400;
+      }
+      p{
+        margin-top: -2rem;
+        padding-left: 2rem;
+        font-size: 24px;
+        font-weight: 300;
+      }
+      .job{
+        padding-top: 4rem;
+        font-weight: 400;
+      }
+    }
+    .activities{
+      padding-top: 3rem;
+      display: block;
+      background-color: var(--branco);
+      
+      .roles{
+        border-bottom: 1px solid black;
+        margin-left: 2rem;
+        width: 75vw;
+        text-align: justify;
+        h1{
+          font-size: 24px;
+          font-weight: 400;
+        }
+        p{  
+          font-weight: 300;
+          padding-bottom: 3rem;
+        }
+      }
+      .development{
+        margin-left: 2rem;
+        width: 75vw;
+        padding-top: 3rem;
+        text-align: justify;
+        h1{
+          font-size: 24px;
+          font-weight: 400;
+        }
+        p{  
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
+@media (min-width:360px) and (max-width:540px){
+  .all{
+    background-color: var(--vermelho);
+    margin-top: -2.7rem;
+    .info{
+      height: 50vh;
+      color: var(--branco);
+      h1{
+        padding-top: 3rem;
+        padding-left: 2rem;
+        font-size: 56px;
+        font-weight: 400;
+      }
+      p{
+        margin-top: -2rem;
+        padding-left: 2rem;
+        font-size: 24px;
+        font-weight: 300;
+      }
+      .job{
+        padding-top: 4rem;
+        font-weight: 400;
+      }
+    }
+    .activities{
+      padding-top: 3rem;
+      display: block;
+      background-color: var(--branco);
+      border: none;
+      .roles{
+        border-bottom: 1px solid black;
+        margin-left: 3rem;
+        width: 75vw;
+        text-align: justify;
+        h1{
+          font-size: 24px;
+          font-weight: 400;
+        }
+        p{  
+          font-weight: 300;
+          padding-bottom: 3rem;
+        }
+      }
+      .development{
+        margin-left: 3rem;
+        width: 75vw;
+        padding-top: 3rem;
+        text-align: justify;
+        h1{
+          font-size: 24px;
+          font-weight: 400;
+        }
+        p{  
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
