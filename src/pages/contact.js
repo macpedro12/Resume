@@ -1,5 +1,7 @@
 import NavBar from "../components/NavBar/navbar";
 import styles from "../styles/contact.module.scss";
+import Link from "next/link";
+
 const id = 3;
 
 export default function Contact() {
@@ -26,21 +28,21 @@ export default function Contact() {
           <div className={styles.socialMedia}>
             <h1>Redes Sociais</h1>
             <div className={styles.images}>
-              <a target="_blank" href="https://github.com/macpedro12">
+              <Link target="_blank" href="https://github.com/macpedro12">
                 <img src="/github.svg" alt="github" />
-              </a>
-              <a
+              </Link>
+              <Link
                 target="_blank"
                 href="https://www.facebook.com/pedro.amorim.503092/"
               >
                 <img src="/facebook.svg" alt="Facebook" />
-              </a>
-              <a
+              </Link>
+              <Link
                 target="_blank"
                 href="https://www.linkedin.com/in/pedro-amorim-3516001a5/"
               >
                 <img src="/linkedin.svg" alt="LinkedIn" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

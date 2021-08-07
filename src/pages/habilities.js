@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "../styles/habilities.module.scss";
 import NavBar from "../components/NavBar/navbar";
-
+import Image from "next/image";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -22,13 +22,13 @@ const habilidades = [
   {
     id: 3,
     name: "Linguagens",
-    img: "lingua.png",
+    img: "/lingua.png",
     skills: ["Inglês", "Nível : Intermediário"],
   },
   {
     id: 4,
     name: "Escolaridade",
-    img: "escola.png",
+    img: "/escola.png",
     skills: ["Faculdade: CEFET-RJ", "Curso: Ciência da Computação"],
   },
 ];
@@ -61,7 +61,7 @@ export default function Habilities() {
             key={habilidades.id}
             onClick={() => setIndex(habilidades.id)}
           >
-            <img src={habilidades.img} />
+            <img src={habilidades.img}/>
             <p>{habilidades.name}</p>
           </div>
         ))}

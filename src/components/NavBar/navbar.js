@@ -1,5 +1,7 @@
+import Link from "next/link";
 import { useState } from "react";
 import styles from "./navbar.module.scss";
+import Image from "next/image";
 
 export default function NavBar({ id }) {
   const [isClicked, setIsClicked] = useState(false);
@@ -15,23 +17,23 @@ export default function NavBar({ id }) {
             <ul>
               {id != 1 ? (
                 <li>
-                  <a href="/habilities">
+                  <Link href="/habilities">
                     <p>Habilidades</p>
-                  </a>
+                  </Link>
                 </li>
               ) : null}
               {id != 2 ? (
                 <li>
-                  <a href="/jobs">
+                  <Link href="/jobs">
                     <p>Experiência</p>
-                  </a>
+                  </Link>
                 </li>
               ) : null}
               {id != 3 ? (
                 <li >
-                  <a href="/contact">
+                  <Link href="/contact">
                     <p>Contato</p>
-                  </a>
+                  </Link>
                 </li>
               ) : null}
             </ul>
