@@ -17,7 +17,7 @@ const habilidades = [
     id: 2,
     name: "Programação",
     img: "/prog.png",
-    skills: ["Python", "C++"],
+    skills: ["Python", "C++", "SQL"],
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const habilidades = [
   },
 ];
 
-export default function Habilities() {
+export default function Abilities() {
   const [index, setIndex] = useState(1);
   const settings = {
     centerPadding: "-15px",

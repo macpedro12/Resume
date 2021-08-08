@@ -19,7 +19,7 @@ export default function Home() {
       <div div className={styles.link}>
         <div className={styles.link2}>
           <img src="/yellowPoint.svg" className={styles.yellowPoint} />
-          <Link href="/habilities">
+          <Link href="/abilities">
             <a>Habilidades</a>
           </Link>
         </div>

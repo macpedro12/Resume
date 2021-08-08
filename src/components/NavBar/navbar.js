@@ -17,7 +17,7 @@ export default function NavBar({ id }) {
             <ul>
               {id != 1 ? (
                 <li>
-                  <Link href="/habilities">
+                  <Link href="/abilities">
                     <p>Habilidades</p>
                   </Link>
                 </li>
